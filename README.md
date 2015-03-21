@@ -1,5 +1,4 @@
-# This a plugin for adding [jiathis](http://jiathis.com) share button to meteor app, which
-suports sharing to weibo, wechat, QQ, etc.
+# This is a plugin for adding [jiathis](http://jiathis.com) share button to meteor app, which suports sharing to weibo, wechat, QQ, etc.
 
 ## How to install
 
