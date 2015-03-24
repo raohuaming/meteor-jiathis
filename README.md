@@ -12,5 +12,5 @@ In your template, add the below snippet to where you want the share
 buttons put:
 
 ```html
-  {{> jiaShareButton uid=[Your UID] }}
+  {{> jiathisShareButton uid=[Your UID] }}
 ```
