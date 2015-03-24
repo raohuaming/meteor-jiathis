@@ -1,5 +1,5 @@
 Template.jiathisShareButton.rendered = function(){
-  var script_tag = _.template('<script type="text/javascript">var jiathis_config = {data_track_clickback:"true"};</script> <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=<%= uid %>" charset="utf-8"></script>')({
+  var script_tag = _.template('<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=<%= uid %>" charset="utf-8"></script>')({
     uid: this.data.uid
   });
   $('.jiathis_style').after(script_tag);
